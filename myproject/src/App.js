@@ -1,12 +1,19 @@
 
 import './App.css';
-import Navbar from './Navbar';
+import Topnav from './Topnav';
+import Foter from './Foter'
+import Content from './Content';
+
+
+// import Navbar from './Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      
+    <div className="App container">
+      {/* <Navbar /> */}
+      <Topnav />
+      <Content />
+      <Foter />
     </div>
   );
 }
